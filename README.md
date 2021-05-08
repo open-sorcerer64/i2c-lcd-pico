@@ -40,6 +40,6 @@ These are the python commands used in a program! (They can all be found in the l
 * `lcd.custom_char(Num, bytearray([HEX chars])))` - Num can be any integer 0 - 8 (Writing to CGRAM locations) merely used for numbering. The HEX chars are simply made by using this link: https://maxpromer.github.io/LCD-Character-Creator/. It will provide a string of Hex charecters which can replace the "HEX chars" in the example command.
 Errors:
 
-* OSERROR : 5 (This is quite a common error, 5 means I/O error. Check Your connections. This means codes can't be sent or recieved ensure SCL and SDA are properly connected through the level translator!
+* OSERROR : 5 (This is quite a common error, 5 means I/O error. Check Your connections. This means codes can't be sent or recieved ensure SCL and SDA are properly connected!
 
 Feel to leave comments or questions / issues and I will try to answer / resolve them as quick as possible!
